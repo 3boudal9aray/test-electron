@@ -31,7 +31,6 @@ function creatCreditWindow(){
     title: 'Crédit',
     width: 800,
     height: 600,
-    frame:false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     }
